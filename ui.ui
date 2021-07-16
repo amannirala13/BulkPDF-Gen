@@ -8,7 +8,7 @@
     <x>0</x>
     <y>0</y>
     <width>541</width>
-    <height>588</height>
+    <height>605</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -36,52 +36,6 @@
       <property name="bottomMargin">
        <number>10</number>
       </property>
-      <item row="0" column="0">
-       <layout class="QGridLayout" name="gridLayout_2" columnstretch="2,2">
-        <property name="sizeConstraint">
-         <enum>QLayout::SetMinAndMaxSize</enum>
-        </property>
-        <item row="1" column="0" colspan="2">
-         <widget class="QTextEdit" name="pdf_md_edit_text">
-          <property name="font">
-           <font>
-            <family>Arial</family>
-           </font>
-          </property>
-          <property name="cursor" stdset="0">
-           <cursorShape>IBeamCursor</cursorShape>
-          </property>
-          <property name="html">
-           <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Arial'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="0">
-         <widget class="QLabel" name="pdf_md_label">
-          <property name="text">
-           <string>Markdown Template</string>
-          </property>
-         </widget>
-        </item>
-        <item row="3" column="1">
-         <widget class="QPushButton" name="pdf_md_save_btn">
-          <property name="maximumSize">
-           <size>
-            <width>80</width>
-            <height>25</height>
-           </size>
-          </property>
-          <property name="text">
-           <string>Save</string>
-          </property>
-         </widget>
-        </item>
-       </layout>
-      </item>
       <item row="1" column="0">
        <layout class="QGridLayout" name="gridLayout_3" columnstretch="2,2">
         <item row="2" column="0" colspan="2">
@@ -142,116 +96,40 @@ p, li { white-space: pre-wrap; }
         <property name="leftMargin">
          <number>10</number>
         </property>
-        <item row="6" column="0" colspan="2">
-         <widget class="QLabel" name="template_file_path_label">
+        <item row="16" column="1" colspan="3">
+         <widget class="QLabel" name="label">
+          <property name="frameShape">
+           <enum>QFrame::NoFrame</enum>
+          </property>
           <property name="text">
-           <string>Template File Path (.md) *</string>
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#0055ff;&quot;&gt;ℹ The first row in in the csv file is considered as&lt;br/&gt;the reference keys&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="textFormat">
+           <enum>Qt::RichText</enum>
           </property>
          </widget>
         </item>
-        <item row="26" column="0" colspan="3">
-         <widget class="QLabel" name="progress_label">
-          <property name="font">
-           <font>
-            <pointsize>8</pointsize>
-           </font>
-          </property>
-          <property name="text">
-           <string>Status</string>
-          </property>
-         </widget>
-        </item>
-        <item row="16" column="0" colspan="2">
-         <widget class="QLineEdit" name="output_dir_edit_text"/>
-        </item>
-        <item row="18" column="0" colspan="3">
-         <widget class="QLineEdit" name="output_fname_format_edit_text"/>
-        </item>
-        <item row="16" column="2">
-         <widget class="QPushButton" name="pushButton_5">
-          <property name="maximumSize">
-           <size>
-            <width>25</width>
-            <height>25</height>
-           </size>
-          </property>
-          <property name="font">
-           <font>
-            <weight>75</weight>
-            <bold>true</bold>
-           </font>
-          </property>
-          <property name="text">
-           <string>...</string>
-          </property>
-         </widget>
-        </item>
-        <item row="13" column="0" colspan="2">
-         <widget class="QLabel" name="data_file_path_label">
-          <property name="text">
-           <string>Data File (.csv) *</string>
-          </property>
-         </widget>
-        </item>
-        <item row="17" column="0" colspan="2">
-         <widget class="QLabel" name="output_fname_format_label">
-          <property name="text">
-           <string>Output file name format *</string>
-          </property>
-         </widget>
-        </item>
-        <item row="14" column="0" colspan="2">
-         <widget class="QLineEdit" name="data_file_path_edit_text"/>
-        </item>
-        <item row="15" column="0" colspan="2">
+        <item row="20" column="1" colspan="2">
          <widget class="QLabel" name="output_dir_label">
           <property name="text">
-           <string>Output Folder *</string>
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Output Folder&lt;span style=&quot; font-weight:600; color:#aa0000;&quot;&gt; *&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="textFormat">
+           <enum>Qt::RichText</enum>
           </property>
          </widget>
         </item>
-        <item row="14" column="2">
-         <widget class="QPushButton" name="data_file_path_choose_btn">
-          <property name="maximumSize">
-           <size>
-            <width>25</width>
-            <height>25</height>
-           </size>
-          </property>
-          <property name="font">
-           <font>
-            <weight>75</weight>
-            <bold>true</bold>
-           </font>
-          </property>
+        <item row="10" column="1" colspan="2">
+         <widget class="QLabel" name="style_file_path_label">
           <property name="text">
-           <string>...</string>
+           <string>Style file Path (.css)</string>
+          </property>
+          <property name="textFormat">
+           <enum>Qt::RichText</enum>
           </property>
          </widget>
         </item>
-        <item row="9" column="0" colspan="2">
-         <widget class="QLineEdit" name="template_file_path_edit_text"/>
-        </item>
-        <item row="11" column="2">
-         <widget class="QPushButton" name="style_file_path_choose_btn">
-          <property name="maximumSize">
-           <size>
-            <width>25</width>
-            <height>25</height>
-           </size>
-          </property>
-          <property name="font">
-           <font>
-            <weight>75</weight>
-            <bold>true</bold>
-           </font>
-          </property>
-          <property name="text">
-           <string>...</string>
-          </property>
-         </widget>
-        </item>
-        <item row="9" column="2">
+        <item row="9" column="3">
          <widget class="QPushButton" name="template_file_path_choose_btn">
           <property name="maximumSize">
            <size>
@@ -270,20 +148,46 @@ p, li { white-space: pre-wrap; }
           </property>
          </widget>
         </item>
-        <item row="27" column="0" colspan="3">
-         <widget class="QTextBrowser" name="progress_text"/>
-        </item>
-        <item row="28" column="0" colspan="3">
-         <widget class="QProgressBar" name="progress_bar">
-          <property name="value">
-           <number>0</number>
+        <item row="6" column="1" colspan="2">
+         <widget class="QLabel" name="template_file_path_label">
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Template File Path (.html) &lt;span style=&quot; font-weight:600; color:#aa0000;&quot;&gt;*&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
-          <property name="invertedAppearance">
-           <bool>false</bool>
+          <property name="textFormat">
+           <enum>Qt::RichText</enum>
           </property>
          </widget>
         </item>
-        <item row="19" column="0" colspan="3">
+        <item row="21" column="3">
+         <widget class="QPushButton" name="output_dir_choose_btn">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>...</string>
+          </property>
+         </widget>
+        </item>
+        <item row="22" column="1" colspan="2">
+         <widget class="QLabel" name="output_fname_format_label">
+          <property name="text">
+           <string>Output file name format</string>
+          </property>
+         </widget>
+        </item>
+        <item row="23" column="1" colspan="3">
+         <widget class="QLineEdit" name="output_fname_format_edit_text"/>
+        </item>
+        <item row="24" column="1" colspan="3">
          <spacer name="horizontalSpacer_2">
           <property name="orientation">
            <enum>Qt::Horizontal</enum>
@@ -296,16 +200,16 @@ p, li { white-space: pre-wrap; }
           </property>
          </spacer>
         </item>
-        <item row="22" column="0">
+        <item row="27" column="1">
          <widget class="QPushButton" name="clear_btn">
           <property name="maximumSize">
            <size>
-            <width>80</width>
-            <height>80</height>
+            <width>120</width>
+            <height>25</height>
            </size>
           </property>
           <property name="text">
-           <string>Clear</string>
+           <string>Clear / Reset</string>
           </property>
           <property name="autoDefault">
            <bool>false</bool>
@@ -318,10 +222,103 @@ p, li { white-space: pre-wrap; }
           </property>
          </widget>
         </item>
-        <item row="11" column="0" colspan="2">
+        <item row="14" column="3">
+         <widget class="QPushButton" name="data_file_path_choose_btn">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>...</string>
+          </property>
+         </widget>
+        </item>
+        <item row="9" column="1" colspan="2">
+         <widget class="QLineEdit" name="template_file_path_edit_text"/>
+        </item>
+        <item row="11" column="3">
+         <widget class="QPushButton" name="style_file_path_choose_btn">
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>...</string>
+          </property>
+         </widget>
+        </item>
+        <item row="13" column="1" colspan="2">
+         <widget class="QLabel" name="data_file_path_label">
+          <property name="text">
+           <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Data File (.csv)&lt;span style=&quot; font-weight:600; color:#aa0000;&quot;&gt; *&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="textFormat">
+           <enum>Qt::RichText</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="14" column="1" colspan="2">
+         <widget class="QLineEdit" name="data_file_path_edit_text"/>
+        </item>
+        <item row="11" column="1" colspan="2">
          <widget class="QLineEdit" name="style_file_path_edit_text"/>
         </item>
-        <item row="24" column="0" colspan="3">
+        <item row="21" column="1" colspan="2">
+         <widget class="QLineEdit" name="output_dir_edit_text"/>
+        </item>
+        <item row="30" column="1" colspan="3">
+         <spacer name="horizontalSpacer_4">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="31" column="1" colspan="3">
+         <widget class="QLabel" name="progress_label">
+          <property name="font">
+           <font>
+            <pointsize>8</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Status</string>
+          </property>
+         </widget>
+        </item>
+        <item row="27" column="2" colspan="2">
+         <widget class="QPushButton" name="load_refresh_btn">
+          <property name="text">
+           <string>Load / Refresh</string>
+          </property>
+         </widget>
+        </item>
+        <item row="29" column="1" colspan="3">
          <widget class="QPushButton" name="generate_btn">
           <property name="minimumSize">
            <size>
@@ -341,32 +338,96 @@ p, li { white-space: pre-wrap; }
           <property name="text">
            <string>Generate</string>
           </property>
-         </widget>
-        </item>
-        <item row="10" column="0" colspan="2">
-         <widget class="QLabel" name="style_file_path_label">
-          <property name="text">
-           <string>Style file Path (.css)</string>
+          <property name="default">
+           <bool>false</bool>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
           </property>
          </widget>
         </item>
-        <item row="25" column="0" colspan="3">
-         <spacer name="horizontalSpacer_4">
+        <item row="32" column="1" colspan="3">
+         <widget class="QTextBrowser" name="progress_text">
+          <property name="frameShadow">
+           <enum>QFrame::Sunken</enum>
+          </property>
+          <property name="autoFormatting">
+           <set>QTextEdit::AutoAll</set>
+          </property>
+         </widget>
+        </item>
+        <item row="33" column="1" colspan="3">
+         <widget class="QProgressBar" name="progress_bar">
+          <property name="value">
+           <number>0</number>
+          </property>
+          <property name="textVisible">
+           <bool>false</bool>
+          </property>
+          <property name="invertedAppearance">
+           <bool>false</bool>
+          </property>
+          <property name="format">
+           <string>%p%</string>
+          </property>
+         </widget>
+        </item>
+        <item row="17" column="1" colspan="3">
+         <spacer name="horizontalSpacer">
           <property name="orientation">
            <enum>Qt::Horizontal</enum>
           </property>
           <property name="sizeHint" stdset="0">
            <size>
             <width>40</width>
-            <height>20</height>
+            <height>10</height>
            </size>
           </property>
          </spacer>
         </item>
-        <item row="22" column="1" colspan="2">
-         <widget class="QPushButton" name="load_refresh_btn">
+       </layout>
+      </item>
+      <item row="0" column="0">
+       <layout class="QGridLayout" name="gridLayout_2" columnstretch="2,2">
+        <property name="sizeConstraint">
+         <enum>QLayout::SetMinAndMaxSize</enum>
+        </property>
+        <item row="1" column="0" colspan="2">
+         <widget class="QTextEdit" name="pdf_html_edit_text">
+          <property name="font">
+           <font>
+            <family>Arial</family>
+           </font>
+          </property>
+          <property name="cursor" stdset="0">
+           <cursorShape>IBeamCursor</cursorShape>
+          </property>
+          <property name="html">
+           <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Arial'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="pdf_html_label">
           <property name="text">
-           <string>Load / Refresh</string>
+           <string>HTML Template</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QPushButton" name="pdf_html_save_btn">
+          <property name="maximumSize">
+           <size>
+            <width>80</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>Save</string>
           </property>
          </widget>
         </item>
@@ -451,11 +512,11 @@ p, li { white-space: pre-wrap; }
    <hints>
     <hint type="sourcelabel">
      <x>335</x>
-     <y>305</y>
+     <y>353</y>
     </hint>
     <hint type="destinationlabel">
      <x>363</x>
-     <y>255</y>
+     <y>303</y>
     </hint>
    </hints>
   </connection>
@@ -467,11 +528,11 @@ p, li { white-space: pre-wrap; }
    <hints>
     <hint type="sourcelabel">
      <x>307</x>
-     <y>307</y>
+     <y>355</y>
     </hint>
     <hint type="destinationlabel">
      <x>330</x>
-     <y>211</y>
+     <y>259</y>
     </hint>
    </hints>
   </connection>
@@ -482,12 +543,12 @@ p, li { white-space: pre-wrap; }
    <slot>clear()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>291</x>
-     <y>303</y>
+     <x>353</x>
+     <y>374</y>
     </hint>
     <hint type="destinationlabel">
-     <x>303</x>
-     <y>152</y>
+     <x>489</x>
+     <y>176</y>
     </hint>
    </hints>
   </connection>
@@ -499,7 +560,7 @@ p, li { white-space: pre-wrap; }
    <hints>
     <hint type="sourcelabel">
      <x>285</x>
-     <y>306</y>
+     <y>354</y>
     </hint>
     <hint type="destinationlabel">
      <x>286</x>
@@ -514,8 +575,8 @@ p, li { white-space: pre-wrap; }
    <slot>clear()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>347</x>
-     <y>302</y>
+     <x>353</x>
+     <y>374</y>
     </hint>
     <hint type="destinationlabel">
      <x>350</x>
@@ -526,12 +587,12 @@ p, li { white-space: pre-wrap; }
   <connection>
    <sender>clear_btn</sender>
    <signal>clicked()</signal>
-   <receiver>pdf_md_edit_text</receiver>
+   <receiver>pdf_html_edit_text</receiver>
    <slot>clear()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>318</x>
-     <y>308</y>
+     <y>356</y>
     </hint>
     <hint type="destinationlabel">
      <x>124</x>
@@ -546,8 +607,8 @@ p, li { white-space: pre-wrap; }
    <slot>clear()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>318</x>
-     <y>297</y>
+     <x>353</x>
+     <y>374</y>
     </hint>
     <hint type="destinationlabel">
      <x>134</x>
@@ -563,11 +624,11 @@ p, li { white-space: pre-wrap; }
    <hints>
     <hint type="sourcelabel">
      <x>339</x>
-     <y>311</y>
+     <y>359</y>
     </hint>
     <hint type="destinationlabel">
      <x>422</x>
-     <y>436</y>
+     <y>484</y>
     </hint>
    </hints>
   </connection>

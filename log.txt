@@ -1,0 +1,509 @@
+
+[2021-07-16 21:39:16.339999] [Errno 2] No such file or directory: ''
+[2021-07-16 21:39:16.339999] [Errno 2] No such file or directory: ''
+[2021-07-16 21:39:47.604435] [Errno 2] No such file or directory: ''
+[2021-07-16 21:39:47.605496] [Errno 2] No such file or directory: ''
+[2021-07-16 21:39:47.932411] [Errno 2] No such file or directory: ''
+[2021-07-16 21:39:47.932411] [Errno 2] No such file or directory: ''
+[2021-07-16 21:39:55.119474] Saved D:/Github/BulkPDF-Gen/test.html
+[2021-07-16 22:52:28.648131] [Errno 2] No such file or directory: ''
+[2021-07-16 22:52:28.648131] [Errno 2] No such file or directory: ''
+[2021-07-16 22:52:28.852952] [Errno 2] No such file or directory: ''
+[2021-07-16 22:52:28.852952] [Errno 2] No such file or directory: ''
+[2021-07-16 22:52:29.035917] [Errno 2] No such file or directory: ''
+[2021-07-16 22:52:29.035917] [Errno 2] No such file or directory: ''
+[2021-07-16 22:52:29.202109] [Errno 2] No such file or directory: ''
+[2021-07-16 22:52:29.202109] [Errno 2] No such file or directory: ''
+[2021-07-16 22:52:29.355991] [Errno 2] No such file or directory: ''
+[2021-07-16 22:52:29.355991] [Errno 2] No such file or directory: ''
+[2021-07-16 22:52:29.526537] [Errno 2] No such file or directory: ''
+[2021-07-16 22:52:29.528606] [Errno 2] No such file or directory: ''
+[2021-07-16 22:52:29.680133] [Errno 2] No such file or directory: ''
+[2021-07-16 22:52:29.680133] [Errno 2] No such file or directory: ''
+[2021-07-16 22:52:29.836332] [Errno 2] No such file or directory: ''
+[2021-07-16 22:52:29.836332] [Errno 2] No such file or directory: ''
+[2021-07-16 22:53:51.153444] [Errno 2] No such file or directory: ''
+[2021-07-16 22:53:51.153444] [Errno 2] No such file or directory: ''
+[2021-07-16 22:53:51.349155] [Errno 2] No such file or directory: ''
+[2021-07-16 22:53:51.349155] [Errno 2] No such file or directory: ''
+[2021-07-16 22:53:51.547579] [Errno 2] No such file or directory: ''
+[2021-07-16 22:53:51.547579] [Errno 2] No such file or directory: ''
+[2021-07-16 22:53:51.784938] [Errno 2] No such file or directory: ''
+[2021-07-16 22:53:51.784938] [Errno 2] No such file or directory: ''
+[2021-07-16 22:53:52.084873] [Errno 2] No such file or directory: ''
+[2021-07-16 22:53:52.084873] [Errno 2] No such file or directory: ''
+[2021-07-16 23:22:56.416848] ERROR: Invalid template(.html) file path selected
+[2021-07-16 23:22:56.417846] Aborting PDF generation...
+[2021-07-17 00:10:26.605085] Saved D:/Github/BulkPDF-Gen/output/test.html
+[2021-07-17 00:12:42.995616] ERROR: Invalid output directory selected
+[2021-07-17 00:12:42.996617] Aborting PDF generation...
+[2021-07-17 00:14:12.331180] WARNING: Invalid path selected
+[2021-07-17 00:21:24.617554] WARNING: Invalid path selected
+[2021-07-17 00:25:42.084438] WARNING: Invalid path selected
+[2021-07-17 00:27:30.729954] WARNING: Invalid path selected
+[2021-07-17 00:34:24.706256] WARNING: Invalid path selected
+[2021-07-17 00:35:59.214894] WARNING: Invalid path selected
+[2021-07-17 00:41:27.416624] WARNING: Invalid path selected
+[2021-07-17 00:44:52.954627] WARNING: Invalid path selected
+[2021-07-17 00:49:50.826944] WARNING: Invalid path selected
+[2021-07-17 01:04:07.284275] [Errno 2] No such file or directory: ''
+[2021-07-17 01:04:09.436003] Saved D:/Github/BulkPDF-Gen/output/test.html
+[2021-07-17 01:23:32.059726] Initializing PDF generation...
+----------------------
+[2021-07-17 01:23:32.065731] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+[2021-07-17 01:23:32.068699] 'RangeIndex' object has no attribute 'stop_index'
+[2021-07-17 01:25:58.484105] Initializing PDF generation...
+----------------------
+[2021-07-17 01:25:58.489126] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+[2021-07-17 01:25:58.491127] Generating Aman Nirala_2021.pdf -> 1/3
+[2021-07-17 01:25:58.655095] Generating Sam Wills_2020.pdf -> 2/3
+[2021-07-17 01:25:58.726096] Generating Alice Cooper_2021.pdf -> 3/3
+[2021-07-17 01:35:57.739754] Initializing PDF generation...
+----------------------
+[2021-07-17 01:35:57.745792] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 01:35:57.747752] Generating Pass.pdf -> 1/3
+[2021-07-17 01:35:57.912040] Generating Fail.pdf -> 2/3
+[2021-07-17 01:35:57.977999] Generating Pass.pdf -> 3/3
+[2021-07-17 01:35:58.044003] ----------------------
+Finished successfully
+[2021-07-17 01:36:55.340098] Initializing PDF generation...
+----------------------
+[2021-07-17 01:36:55.346083] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 01:36:55.347878] Generating 2021Aman Nirala.pdf -> 1/3
+[2021-07-17 01:36:55.513892] Generating 2020Sam Wills.pdf -> 2/3
+[2021-07-17 01:36:55.579933] Generating 2021Alice Cooper.pdf -> 3/3
+[2021-07-17 01:36:55.646889] ----------------------
+Finished successfully
+[2021-07-17 01:43:25.851828] Initializing PDF generation...
+----------------------
+[2021-07-17 01:43:25.855851] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 01:43:25.857851] Generating Quantum Information _Aman Nirala.pdf -> 1/3
+[2021-07-17 01:43:25.976866] Generating MBA_Sam Wills.pdf -> 2/3
+[2021-07-17 01:43:26.041859] Generating MBBS_Alice Cooper.pdf -> 3/3
+[2021-07-17 01:43:26.103856] ----------------------
+Finished successfully
+[2021-07-17 01:52:43.124772] Initializing PDF generation...
+----------------------
+[2021-07-17 01:52:43.128772] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 01:52:43.129775] Generating Quantum Information _Aman Nirala.pdf -> 1/3
+[2021-07-17 01:52:43.209816] Generating MBA_Sam Wills.pdf -> 2/3
+[2021-07-17 01:52:43.275817] Generating MBBS_Alice Cooper.pdf -> 3/3
+[2021-07-17 01:52:43.340813] ----------------------
+Finished successfully
+[2021-07-17 01:54:24.077417] Initializing PDF generation...
+----------------------
+[2021-07-17 01:54:24.081411] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 01:54:24.083412] Generating Quantum Information _Aman Nirala.pdf -> 1/3
+[2021-07-17 01:54:24.146964] Generating MBA_Sam Wills.pdf -> 2/3
+[2021-07-17 01:54:24.211902] [Errno 13] Permission denied: 'D:/Github/BulkPDF-Gen/output/certificates/MBA_Sam Wills.pdf'
+[2021-07-17 01:56:03.357099] Initializing PDF generation...
+----------------------
+[2021-07-17 01:56:03.362108] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 01:56:03.364110] Generating %Year%_Aman Nirala.pdf -> 1/3
+[2021-07-17 01:56:03.594822] Generating %Year%_Sam Wills.pdf -> 2/3
+[2021-07-17 01:56:03.712867] Generating %Year%_Alice Cooper.pdf -> 3/3
+[2021-07-17 01:56:03.833823] ----------------------
+Finished successfully
+[2021-07-17 01:56:45.347463] WARNING: Invalid path selected
+[2021-07-17 01:56:54.588474] Initializing PDF generation...
+----------------------
+[2021-07-17 01:56:54.594463] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 01:56:54.596465] Generating %Year%_Aman Nirala.pdf -> 1/3
+[2021-07-17 01:56:54.713435] Generating %Year%_Sam Wills.pdf -> 2/3
+[2021-07-17 01:56:54.834470] Generating %Year%_Alice Cooper.pdf -> 3/3
+[2021-07-17 01:56:54.954469] ----------------------
+Finished successfully
+[2021-07-17 01:58:22.149133] Initializing PDF generation...
+----------------------
+[2021-07-17 01:58:22.155132] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 01:58:22.157892] Generating %Year%_Aman Nirala.pdf -> 1/3
+[2021-07-17 01:58:22.280891] Generating %Year%_Sam Wills.pdf -> 2/3
+[2021-07-17 01:58:22.398893] Generating %Year%_Alice Cooper.pdf -> 3/3
+[2021-07-17 01:58:22.517894] ----------------------
+Finished successfully
+[2021-07-17 01:58:47.198754] Saved D:/Github/BulkPDF-Gen/output/style.css
+[2021-07-17 01:58:50.117848] Initializing PDF generation...
+----------------------
+[2021-07-17 01:58:50.126873] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 01:58:50.129873] Generating %Year%_Aman Nirala.pdf -> 1/3
+[2021-07-17 01:58:50.247982] Generating %Year%_Sam Wills.pdf -> 2/3
+[2021-07-17 01:58:50.370942] Generating %Year%_Alice Cooper.pdf -> 3/3
+[2021-07-17 01:58:50.490943] [Errno 13] Permission denied: 'D:/Github/BulkPDF-Gen/output/certificates/%Year%_Alice Cooper.pdf'
+[2021-07-17 02:00:33.132827] Initializing PDF generation...
+----------------------
+[2021-07-17 02:00:33.138859] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 02:00:33.140860] Generating Quantum Information _Aman Nirala.pdf -> 1/3
+[2021-07-17 02:00:33.370865] Generating MBA_Sam Wills.pdf -> 2/3
+[2021-07-17 02:00:33.494826] Generating MBBS_Alice Cooper.pdf -> 3/3
+[2021-07-17 02:00:33.610825] ----------------------
+Finished successfully
+[2021-07-17 02:02:03.741153] Initializing PDF generation...
+----------------------
+[2021-07-17 02:02:03.746112] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 02:02:03.748112] Generating Quantum Information _Aman Nirala.pdf -> 1/3
+[2021-07-17 02:02:03.864151] Generating MBA_Sam Wills.pdf -> 2/3
+[2021-07-17 02:02:03.981111] Generating MBBS_Alice Cooper.pdf -> 3/3
+[2021-07-17 02:02:04.100786] ----------------------
+Finished successfully
+[2021-07-17 02:02:54.413126] Initializing PDF generation...
+----------------------
+[2021-07-17 02:02:54.419118] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 02:02:54.421124] Generating Quantum Information _Aman Nirala.pdf -> 1/3
+[2021-07-17 02:02:54.539124] Generating MBA_Sam Wills.pdf -> 2/3
+[2021-07-17 02:02:54.656124] Generating MBBS_Alice Cooper.pdf -> 3/3
+[2021-07-17 02:02:54.774125] ----------------------
+Finished successfully
+[2021-07-17 02:02:57.846554] Initializing PDF generation...
+----------------------
+[2021-07-17 02:02:57.852552] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 02:02:57.854554] Generating Quantum Information _Aman Nirala.pdf -> 1/3
+[2021-07-17 02:02:57.972557] Generating MBA_Sam Wills.pdf -> 2/3
+[2021-07-17 02:02:58.090518] Generating MBBS_Alice Cooper.pdf -> 3/3
+[2021-07-17 02:02:58.211554] ----------------------
+Finished successfully
+[2021-07-17 02:04:52.950186] Initializing PDF generation...
+----------------------
+[2021-07-17 02:04:52.957218] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 02:04:52.960218] Generating Quantum Information _Aman Nirala.pdf -> 1/3
+[2021-07-17 02:04:53.080183] Generating MBA_Sam Wills.pdf -> 2/3
+[2021-07-17 02:04:53.202319] [Errno 13] Permission denied: 'D:/Github/BulkPDF-Gen/output/certificates/MBA_Sam Wills.pdf'
+[2021-07-17 02:05:30.045377] Initializing PDF generation...
+----------------------
+[2021-07-17 02:05:30.050377] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 02:05:30.053524] Generating Aman Nirala_Quantum Information _95%.pdf -> 1/3
+[2021-07-17 02:05:30.284523] Generating Sam Wills_MBA_85%.pdf -> 2/3
+[2021-07-17 02:05:30.400524] Generating Alice Cooper_MBBS_80%.pdf -> 3/3
+[2021-07-17 02:05:30.518525] ----------------------
+Finished successfully
+[2021-07-17 02:08:13.741701] Initializing PDF generation...
+----------------------
+[2021-07-17 02:08:13.746698] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 02:08:13.748697] Generating Aman Nirala_Quantum Information _95%.pdf -> 1/3
+[2021-07-17 02:08:13.871319] Generating Sam Wills_MBA_85%.pdf -> 2/3
+[2021-07-17 02:08:13.987330] Generating Alice Cooper_MBBS_80%.pdf -> 3/3
+[2021-07-17 02:08:14.104313] ----------------------
+Finished successfully
+[2021-07-17 02:11:03.301405] Initializing PDF generation...
+----------------------
+[2021-07-17 02:11:03.307390] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 02:11:03.310393] Generating Aman Nirala_Quantum Information _95%.pdf -> 1/3
+[2021-07-17 02:11:03.428358] Generating Sam Wills_MBA_85%.pdf -> 2/3
+[2021-07-17 02:11:03.549357] Generating Alice Cooper_MBBS_80%.pdf -> 3/3
+[2021-07-17 02:11:03.669403] ----------------------
+Finished successfully
+[2021-07-17 02:20:30.183037] WARNING: Invalid file path selected
+[2021-07-17 02:20:35.110548] WARNING: Invalid file path selected
+[2021-07-17 02:20:53.383128] WARNING: Invalid file path selected
+[2021-07-17 02:22:33.884699] Initializing PDF generation...
+----------------------
+[2021-07-17 02:22:33.890653] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 02:22:33.893654] Generating Aman Nirala_Quantum Information _95%.pdf -> 1/3
+[2021-07-17 02:22:34.129251] Generating Sam Wills_MBA_85%.pdf -> 2/3
+[2021-07-17 02:22:34.246302] Generating Alice Cooper_MBBS_80%.pdf -> 3/3
+[2021-07-17 02:22:34.365353] ----------------------
+Finished successfully
+[2021-07-17 02:22:57.797347] Initializing PDF generation...
+----------------------
+[2021-07-17 02:22:57.803345] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 02:22:57.805345] Generating Aman Nirala_Quantum Information _95%.pdf -> 1/3
+[2021-07-17 02:22:57.924349] Generating Sam Wills_MBA_85%.pdf -> 2/3
+[2021-07-17 02:22:58.042346] Generating Alice Cooper_MBBS_80%.pdf -> 3/3
+[2021-07-17 02:22:58.163385] ----------------------
+Finished successfully
+[2021-07-17 02:23:24.725955] Initializing PDF generation...
+----------------------
+[2021-07-17 02:23:24.731997] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 02:23:24.733995] Generating Aman Nirala_Quantum Information _95%.pdf -> 1/3
+[2021-07-17 02:23:24.851994] Generating Sam Wills_MBA_85%.pdf -> 2/3
+[2021-07-17 02:23:24.971959] Generating Alice Cooper_MBBS_80%.pdf -> 3/3
+[2021-07-17 02:23:25.094954] ----------------------
+Finished successfully
+[2021-07-17 02:23:33.335213] Initializing PDF generation...
+----------------------
+[2021-07-17 02:23:33.341201] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 02:23:33.344201] Generating Aman Nirala_Quantum Information _95%.pdf -> 1/3
+[2021-07-17 02:23:33.466654] Generating Sam Wills_MBA_85%.pdf -> 2/3
+[2021-07-17 02:23:33.590652] Generating Alice Cooper_MBBS_80%.pdf -> 3/3
+[2021-07-17 02:23:33.708658] ----------------------
+Finished successfully
+[2021-07-17 02:24:01.046566] Initializing PDF generation...
+----------------------
+[2021-07-17 02:24:01.053601] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 02:24:01.057566] Generating Aman Nirala_Quantum Information _95%.pdf -> 1/3
+[2021-07-17 02:24:01.201565] Generating Sam Wills_MBA_85%.pdf -> 2/3
+[2021-07-17 02:24:01.330567] Generating Alice Cooper_MBBS_80%.pdf -> 3/3
+[2021-07-17 02:24:01.462569] [Errno 13] Permission denied: 'D:/Github/BulkPDF-Gen/output/certificates/Alice Cooper_MBBS_80%.pdf'
+[2021-07-17 02:24:07.735329] Initializing PDF generation...
+----------------------
+[2021-07-17 02:24:07.743327] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 02:24:07.748327] Generating Aman Nirala_Quantum Information _95%.pdf -> 1/3
+[2021-07-17 02:24:07.870327] Generating Sam Wills_MBA_85%.pdf -> 2/3
+[2021-07-17 02:24:07.989327] Generating Alice Cooper_MBBS_80%.pdf -> 3/3
+[2021-07-17 02:24:08.116328] ----------------------
+Finished successfully
+[2021-07-17 02:24:25.505728] Initializing PDF generation...
+----------------------
+[2021-07-17 02:24:25.513767] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 02:24:25.518767] Generating Aman Nirala_Quantum Information _95%.pdf -> 1/3
+[2021-07-17 02:24:25.638728] Generating Sam Wills_MBA_85%.pdf -> 2/3
+[2021-07-17 02:24:25.760772] Generating Alice Cooper_MBBS_80%.pdf -> 3/3
+[2021-07-17 02:24:25.879768] ----------------------
+Finished successfully
+[2021-07-17 02:26:10.705893] Saved D:/Github/BulkPDF-Gen/output/style.css
+[2021-07-17 02:26:13.625285] Initializing PDF generation...
+----------------------
+[2021-07-17 02:26:13.634286] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 02:26:13.639448] Generating Aman Nirala_Quantum Information _95%.pdf -> 1/3
+[2021-07-17 02:26:13.763713] Generating Sam Wills_MBA_85%.pdf -> 2/3
+[2021-07-17 02:26:13.884697] Generating Alice Cooper_MBBS_80%.pdf -> 3/3
+[2021-07-17 02:26:14.014730] ----------------------
+Finished successfully
+[2021-07-17 02:27:06.825522] Initializing PDF generation...
+----------------------
+[2021-07-17 02:27:06.837516] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 02:27:06.843517] Generating Aman Nirala_Quantum Information _95%.pdf -> 1/3
+[2021-07-17 02:27:06.964523] Generating Sam Wills_MBA_85%.pdf -> 2/3
+[2021-07-17 02:27:07.085481] Generating Alice Cooper_MBBS_80%.pdf -> 3/3
+[2021-07-17 02:27:07.207521] ----------------------
+Finished successfully
+[2021-07-17 02:29:39.251734] Saved D:/Github/BulkPDF-Gen/output/style.css
+[2021-07-17 02:29:40.538169] Initializing PDF generation...
+----------------------
+[2021-07-17 02:29:40.548172] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 02:29:40.555169] Generating Aman Nirala_Quantum Information _95%.pdf -> 1/3
+[2021-07-17 02:29:40.687134] Generating Sam Wills_MBA_85%.pdf -> 2/3
+[2021-07-17 02:29:40.810164] Generating Alice Cooper_MBBS_80%.pdf -> 3/3
+[2021-07-17 02:29:40.934172] ----------------------
+Finished successfully
+[2021-07-17 02:31:10.987253] Initializing PDF generation...
+----------------------
+[2021-07-17 02:31:10.997254] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 02:31:11.004252] Generating Aman Nirala_Quantum Information _95%.pdf -> 1/3
+[2021-07-17 02:31:11.131291] Generating Sam Wills_MBA_85%.pdf -> 2/3
+[2021-07-17 02:31:11.258284] Generating Alice Cooper_MBBS_80%.pdf -> 3/3
+[2021-07-17 02:31:11.391948] [Errno 13] Permission denied: 'D:/Github/BulkPDF-Gen/output/certificates/Alice Cooper_MBBS_80%.pdf'
+[2021-07-17 02:31:18.348449] Initializing PDF generation...
+----------------------
+[2021-07-17 02:31:18.358444] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 02:31:18.366406] Generating Aman Nirala_Quantum Information _95%.pdf -> 1/3
+[2021-07-17 02:31:18.499405] Generating Sam Wills_MBA_85%.pdf -> 2/3
+[2021-07-17 02:31:18.625440] Generating Alice Cooper_MBBS_80%.pdf -> 3/3
+[2021-07-17 02:31:18.752404] ----------------------
+Finished successfully
+[2021-07-17 02:31:52.796132] Initializing PDF generation...
+----------------------
+[2021-07-17 02:31:52.807167] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 02:31:52.816133] Generating Aman Nirala_Quantum Information _95%.pdf -> 1/3
+[2021-07-17 02:31:52.944166] Generating Sam Wills_MBA_85%.pdf -> 2/3
+[2021-07-17 02:31:53.071171] Generating Alice Cooper_MBBS_80%.pdf -> 3/3
+[2021-07-17 02:31:53.194171] ----------------------
+Finished successfully
+[2021-07-17 02:32:59.580447] Initializing PDF generation...
+----------------------
+[2021-07-17 02:32:59.592443] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 02:32:59.600451] Generating Aman Nirala_Quantum Information _95%.pdf -> 1/3
+[2021-07-17 02:32:59.725410] Generating Sam Wills_MBA_85%.pdf -> 2/3
+[2021-07-17 02:32:59.857408] Generating Alice Cooper_MBBS_80%.pdf -> 3/3
+[2021-07-17 02:32:59.985411] ----------------------
+Finished successfully
+[2021-07-17 02:34:47.749753] Saved D:/Github/BulkPDF-Gen/output/style.css
+[2021-07-17 02:35:02.554143] WARNING: Invalid path selected
+[2021-07-17 02:35:15.605310] Initializing PDF generation...
+----------------------
+[2021-07-17 02:35:15.609308] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 02:35:15.611314] Generating Aman Nirala_Quantum Information _95%.pdf -> 1/3
+[2021-07-17 02:35:15.739280] Generating Sam Wills_MBA_85%.pdf -> 2/3
+[2021-07-17 02:35:15.862275] Generating Alice Cooper_MBBS_80%.pdf -> 3/3
+[2021-07-17 02:35:15.987279] ----------------------
+Finished successfully
+[2021-07-17 02:35:57.782503] Initializing PDF generation...
+----------------------
+[2021-07-17 02:35:57.787504] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 02:35:57.789504] Generating Aman Nirala_Quantum Information _95%.pdf -> 1/3
+[2021-07-17 02:35:57.909504] Generating Sam Wills_MBA_85%.pdf -> 2/3
+[2021-07-17 02:35:58.028502] Generating Alice Cooper_MBBS_80%.pdf -> 3/3
+[2021-07-17 02:35:58.148502] [Errno 13] Permission denied: 'D:/Github/BulkPDF-Gen/output/certificates/Alice Cooper_MBBS_80%.pdf'
+[2021-07-17 02:36:02.022929] Initializing PDF generation...
+----------------------
+[2021-07-17 02:36:02.027929] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 02:36:02.030930] Generating Aman Nirala_Quantum Information _95%.pdf -> 1/3
+[2021-07-17 02:36:02.149896] Generating Sam Wills_MBA_85%.pdf -> 2/3
+[2021-07-17 02:36:02.270929] Generating Alice Cooper_MBBS_80%.pdf -> 3/3
+[2021-07-17 02:36:02.388898] ----------------------
+Finished successfully
+[2021-07-17 02:36:19.302649] Initializing PDF generation...
+----------------------
+[2021-07-17 02:36:19.309684] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 02:36:19.312687] Generating Aman Nirala_Quantum Information _95%.pdf -> 1/3
+[2021-07-17 02:36:19.435688] Generating Sam Wills_MBA_85%.pdf -> 2/3
+[2021-07-17 02:36:19.555649] Generating Alice Cooper_MBBS_80%.pdf -> 3/3
+[2021-07-17 02:36:19.677648] ----------------------
+Finished successfully
+[2021-07-17 02:48:21.551288] Saved D:/Github/BulkPDF-Gen/output/test.html
+[2021-07-17 02:48:21.552289] Saved D:/Github/BulkPDF-Gen/output/style.css
+[2021-07-17 02:48:24.806312] Saved D:/Github/BulkPDF-Gen/output/test.html
+[2021-07-17 02:48:24.807310] Saved D:/Github/BulkPDF-Gen/output/style.css
+[2021-07-17 02:48:25.006989] Saved D:/Github/BulkPDF-Gen/output/test.html
+[2021-07-17 02:48:25.007987] Saved D:/Github/BulkPDF-Gen/output/style.css
+[2021-07-17 02:48:25.159025] Saved D:/Github/BulkPDF-Gen/output/test.html
+[2021-07-17 02:48:25.160019] Saved D:/Github/BulkPDF-Gen/output/style.css
+[2021-07-17 03:03:36.726637] Initializing PDF generation...
+----------------------
+[2021-07-17 03:03:36.729631] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 03:03:36.737661] Generating Aman Nirala_Quantum Information _95%.pdf -> 1/3
+[2021-07-17 03:03:36.864633] Generating Sam Wills_MBA_85%.pdf -> 2/3
+[2021-07-17 03:03:36.934635] Generating Alice Cooper_MBBS_80%.pdf -> 3/3
+[2021-07-17 03:03:37.001671] ----------------------
+Finished successfully
+[2021-07-17 03:04:29.134200] Initializing PDF generation...
+----------------------
+[2021-07-17 03:04:29.139192] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 03:04:29.146156] Generating Aman Nirala_Quantum Information _95%.pdf -> 1/3
+[2021-07-17 03:04:29.271695] Generating Sam Wills_MBA_85%.pdf -> 2/3
+[2021-07-17 03:04:29.336699] Generating Alice Cooper_MBBS_80%.pdf -> 3/3
+[2021-07-17 03:04:29.402699] ----------------------
+Finished successfully
+[2021-07-17 03:05:40.125911] Initializing PDF generation...
+----------------------
+[2021-07-17 03:05:40.129912] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 03:05:40.136910] Generating Aman Nirala_Quantum Information _95%.pdf -> 1/3
+[2021-07-17 03:05:40.262911] Generating Sam Wills_MBA_85%.pdf -> 2/3
+[2021-07-17 03:05:40.330915] Generating Alice Cooper_MBBS_80%.pdf -> 3/3
+[2021-07-17 03:05:40.396950] ----------------------
+Finished successfully
+[2021-07-17 03:10:00.766228] Initializing PDF generation...
+----------------------
+[2021-07-17 03:10:00.769258] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 03:10:00.772507] Generating Aman Nirala_Quantum Information _95%.pdf -> 1/3
+[2021-07-17 03:10:00.890508] Generating Sam Wills_MBA_85%.pdf -> 2/3
+[2021-07-17 03:10:00.957478] Generating Alice Cooper_MBBS_80%.pdf -> 3/3
+[2021-07-17 03:10:01.023479] ----------------------
+Finished successfully
+[2021-07-17 03:11:22.277319] WARNING: Invalid path selected
+[2021-07-17 03:11:35.990986] Initializing PDF generation...
+----------------------
+[2021-07-17 03:11:35.994032] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 03:11:35.997024] Generating Aman Nirala_Quantum Information _95%.pdf -> 1/3
+[2021-07-17 03:11:36.116023] Generating Sam Wills_MBA_85%.pdf -> 2/3
+[2021-07-17 03:11:36.181063] Generating Alice Cooper_MBBS_80%.pdf -> 3/3
+[2021-07-17 03:11:36.246060] ----------------------
+Finished successfully
+[2021-07-17 03:15:40.686662] Initializing PDF generation...
+----------------------
+[2021-07-17 03:15:40.689690] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 03:15:40.691663] Generating Aman Nirala_Quantum Information _95%.pdf -> 1/3
+[2021-07-17 03:15:40.818662] Generating Sam Wills_MBA_85%.pdf -> 2/3
+[2021-07-17 03:15:40.882660] Generating Alice Cooper_MBBS_80%.pdf -> 3/3
+[2021-07-17 03:15:40.947664] ----------------------
+Finished successfully
+[2021-07-17 03:17:07.130073] WARNING: Invalid path selected
+[2021-07-17 03:17:13.783175] Initializing PDF generation...
+----------------------
+[2021-07-17 03:17:13.786185] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 03:17:13.791870] Generating Aman Nirala_Quantum Information _95%.pdf -> 1/3
+[2021-07-17 03:17:13.913872] Generating Sam Wills_MBA_85%.pdf -> 2/3
+[2021-07-17 03:17:13.978914] Generating Alice Cooper_MBBS_80%.pdf -> 3/3
+[2021-07-17 03:17:14.041912] ----------------------
+Finished successfully
+[2021-07-17 03:17:33.279698] Initializing PDF generation...
+----------------------
+[2021-07-17 03:17:33.282695] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 03:17:33.286660] Generating Aman Nirala_Quantum Information _95%.pdf -> 1/3
+[2021-07-17 03:17:33.351635] Generating Sam Wills_MBA_85%.pdf -> 2/3
+[2021-07-17 03:17:33.416635] Generating Alice Cooper_MBBS_80%.pdf -> 3/3
+[2021-07-17 03:17:33.482598] ----------------------
+Finished successfully
+[2021-07-17 03:17:38.000105] Initializing PDF generation...
+----------------------
+[2021-07-17 03:17:38.004106] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 03:17:38.009105] Generating Aman Nirala_Quantum Information _95%.pdf -> 1/3
+[2021-07-17 03:17:38.076146] Generating Sam Wills_MBA_85%.pdf -> 2/3
+[2021-07-17 03:17:38.142147] Generating Alice Cooper_MBBS_80%.pdf -> 3/3
+[2021-07-17 03:17:38.207143] ----------------------
+Finished successfully
+[2021-07-17 04:09:26.256171] Saved D:/Github/BulkPDF-Gen/output/test.html
+[2021-07-17 04:09:26.256171] Saved D:/Github/BulkPDF-Gen/output/style.css
+[2021-07-17 04:09:34.625047] Initializing PDF generation...
+----------------------
+[2021-07-17 04:09:34.628083] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 04:09:34.636045] Generating Aman Nirala_Quantum Information _95%.pdf -> 1/3
+[2021-07-17 04:09:34.765215] Generating Sam Wills_MBA_85%.pdf -> 2/3
+[2021-07-17 04:09:34.831218] Generating Alice Cooper_MBBS_80%.pdf -> 3/3
+[2021-07-17 04:09:34.896218] ----------------------
+Finished successfully
+[2021-07-17 04:09:57.898953] Saved D:/Github/BulkPDF-Gen/output/test.html
+[2021-07-17 04:09:57.900953] Saved D:/Github/BulkPDF-Gen/output/style.css
+[2021-07-17 04:09:59.225056] Initializing PDF generation...
+----------------------
+[2021-07-17 04:09:59.229054] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 04:09:59.233054] Generating Aman Nirala_Quantum Information _95%.pdf -> 1/3
+[2021-07-17 04:09:59.300057] Generating Sam Wills_MBA_85%.pdf -> 2/3
+[2021-07-17 04:09:59.375094] Generating Alice Cooper_MBBS_80%.pdf -> 3/3
+[2021-07-17 04:09:59.440097] ----------------------
+Finished successfully
+[2021-07-17 04:10:16.772160] Saved D:/Github/BulkPDF-Gen/output/test.html
+[2021-07-17 04:10:16.774163] Saved D:/Github/BulkPDF-Gen/output/style.css
+[2021-07-17 04:10:17.938393] Initializing PDF generation...
+----------------------
+[2021-07-17 04:10:17.942392] Loaded D:/Github/BulkPDF-Gen/output/data.csv successfully
+----------------------
+[2021-07-17 04:10:17.947392] Generating Aman Nirala_Quantum Information _95%.pdf -> 1/3
+[2021-07-17 04:10:18.014434] Generating Sam Wills_MBA_85%.pdf -> 2/3
+[2021-07-17 04:10:18.080428] Generating Alice Cooper_MBBS_80%.pdf -> 3/3
+[2021-07-17 04:10:18.144393] ----------------------
+Finished successfully
+[2021-07-17 04:16:00.063872] Initializing PDF generation...
+----------------------
+[2021-07-17 04:16:00.066871] Loaded D:/Github/BulkPDF-Gen/tests/data.csv successfully
+----------------------
+[2021-07-17 04:16:00.073872] Generating Quantum Information _Aman Nirala.pdf -> 1/3
+[2021-07-17 04:16:00.192874] Generating MBA_Sam Wills.pdf -> 2/3
+[2021-07-17 04:16:00.255875] Generating MBBS_Alice Cooper.pdf -> 3/3
+[2021-07-17 04:16:00.318873] ----------------------
+Finished successfully
