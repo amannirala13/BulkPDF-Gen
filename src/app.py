@@ -11,8 +11,17 @@ import pandas as pd
 import sys
 import webbrowser
 
-
 class BulkPDFGen:
+    
+    """
+    This is the main application class for BulkPDF-Gen.
+    Create an instace of this object to start the application
+
+    Returns:
+    
+        None: This class returns nothing. Just create an instace to start the application
+    """
+    
     def __init__(self):
         self.app = QApplication(sys.argv)
         self.window = self.Ui()
@@ -70,35 +79,79 @@ class BulkPDFGen:
             'process_ongoing': False
         }
 
+
         self.attachControls()
         sys.exit(self.app.exec_())
-
     class Ui(QMainWindow):
+        
+        """
+        This class used by Qt for connecting the UI element to the app instance.
+        """
+        
         def __init__(self):
             super(BulkPDFGen.Ui, self).__init__()
             uic.loadUi('ui.ui', self)
             self.show()
 
     class AboutDialogUI(QDialog):
+        
+        """
+        This class used by Qt to create the About window.
+        """
+        
         def __init__(self):
             super(BulkPDFGen.AboutDialogUI,self).__init__()
             uic.loadUi('about.ui',self)
             self.show()
 
     def updateProgressText(self, text):
+        """
+        This function adds messages to the progress/status window.
+
+        Args:
+            
+            text (str): The message you want to show in the status window
+        """
+        
         self.state['progress_text'] += '\n> {}'.format(text)
         self.progressText.setText(self.state['progress_text'])
         self.writeToLog(text)
 
     def updateHTMLTemplatePath(self, path):
+        """
+        This function is used to update the template HTML path.
+        Don't change the self.state directly. Call this function to ensure that UI is synced with the changes.
+
+        Args:
+            
+            path (str): The path of the template file
+        """
+        
         self.state['html_template_path'] = path
         self.tempFilePathEditText.setText(path)
 
     def updateHTMLTemplateFileText(self, text):
+        """
+        This function is used to update the template code text.
+        Don't change the self.state directly. Call this function to ensure that UI is synced with the changes.
+
+
+        Args:
+        
+            text (str): The content of the html template
+        """
+        
         self.state['html_template_file_text'] = text
         self.pdfHTMLEditText.setPlainText(self.state['html_template_file_text'])
 
     def updateStyleTemplatePath(self, path):
+        """This function is used to update the style file path.
+        Don't change the self.state directly. Call this function to ensure that UI is synced with the changes.
+
+        Args:
+        
+            path (str): The path of the style file
+        """
         self.state['style_template_path'] = path
         self.styleFilePathEditText.setText(path)
 
