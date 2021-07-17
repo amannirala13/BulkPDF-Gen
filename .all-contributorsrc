@@ -1,0 +1,27 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "amannirala13",
+      "name": "Aman Nirala",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35570939?v=4",
+      "profile": "https://amannirala.com/",
+      "contributions": [
+        "code",
+        "doc",
+        "ideas",
+        "design"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "BulkPDF-Gen",
+  "projectOwner": "amannirala13",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
