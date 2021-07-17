@@ -1,5 +1,7 @@
+<p align="center">
+<img src="https://raw.githubusercontent.com/amannirala13/BulkPDF-Gen/main/src/ic.svg"></img>
+</p>
 # BulkPDF-Gen
-
 <p align="center">
 <a href="https://github.com/amannirala13/BulkPDF-Gen/issues"><img src="https://img.shields.io/github/issues/amannirala13/BulkPDF-Gen"></a>
 <a href="https://github.com/amannirala13/BulkPDF-Gen/pulls"><img src="https://img.shields.io/github/issues-pr/amannirala13/BulkPDF-Gen"></a>
