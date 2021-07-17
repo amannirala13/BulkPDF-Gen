@@ -1,6 +1,4 @@
-![logo](ic.svg)
-
-# BulkPDF-Gen
+# ![logo](ic.png)
 
 <p align="center">
 <a href="https://github.com/amannirala13/BulkPDF-Gen/issues"><img src="https://img.shields.io/github/issues/amannirala13/BulkPDF-Gen"></a>
