@@ -14,6 +14,16 @@
 
 A bulk html pdf generator. This application can generate PDFs in bulk by using just one click.
 
+<p align="center">
+<h2 align="center">Screenshots</h2>
+<table>
+<tr>
+<th><img src="ss3.png" alt="demo1"/></h>
+<th><img src="ss2.png" alt="demo2"/></th>
+<tr>
+</table>
+</p>
+
 ## License
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Famannirala13%2FBulkPDF-Gen.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Famannirala13%2FBulkPDF-Gen?ref=badge_large)
