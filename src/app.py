@@ -232,6 +232,7 @@ class BulkPDFGen:
             if not self.validateState():
                 self.updateProgressText('----------------------\nAborting PDF generation...')
                 self.state['process_ongoing'] = False
+                self.enableUI()
                 return
             self.data_file = pd.read_csv(self.state['data_file_path'])
 
@@ -384,6 +385,9 @@ class BulkPDFGen:
                 'process_ongoing': False}
 
     def disableUI(self):
+        self.pdfHTMLEditText.setEnabled(False)
+        self.pdfStyleEditText.setEnabled(False)
+
         self.tempFilePathChooseBtn.setEnabled(False)
         self.tempFilePathEditText.setEnabled(False)
 
@@ -396,6 +400,8 @@ class BulkPDFGen:
         self.outputDirPathChooseBtn.setEnabled(False)
         self.outputDirPathEditText.setEnabled(False)
 
+        self.outputFnameFormatEditText.setEnabled(False)
+
         self.pdfHTMLSaveBtn.setEnabled(False)
         self.pdfStyleSaveBtn.setEnabled(False)
 
@@ -405,6 +411,9 @@ class BulkPDFGen:
         self.generateBtn.setEnabled(False)
 
     def enableUI(self):
+        self.pdfHTMLEditText.setEnabled(True)
+        self.pdfStyleEditText.setEnabled(True)
+
         self.tempFilePathChooseBtn.setEnabled(True)
         self.tempFilePathEditText.setEnabled(True)
 
@@ -416,6 +425,8 @@ class BulkPDFGen:
 
         self.outputDirPathChooseBtn.setEnabled(True)
         self.outputDirPathEditText.setEnabled(True)
+
+        self.outputFnameFormatEditText.setEnabled(True)
 
         self.pdfHTMLSaveBtn.setEnabled(True)
         self.pdfStyleSaveBtn.setEnabled(True)
