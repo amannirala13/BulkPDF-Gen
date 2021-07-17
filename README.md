@@ -18,7 +18,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://amannirala.com/"><img src="https://avatars.githubusercontent.com/u/35570939?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aman Nirala</b></sub></a><br /><a href="https://github.com/amannirala13/BulkPDF-Gen/commits?author=amannirala13" title="Code">💻</a> <a href="https://github.com/amannirala13/BulkPDF-Gen/commits?author=amannirala13" title="Documentation">📖</a> <a href="#ideas-amannirala13" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://amannirala.com/"><img src="https://avatars.githubusercontent.com/u/35570939?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aman Nirala</b></sub></a><br /><a href="https://github.com/amannirala13/BulkPDF-Gen/commits?author=amannirala13" title="Code">💻</a> <a href="https://github.com/amannirala13/BulkPDF-Gen/commits?author=amannirala13" title="Documentation">📖</a> <a href="#ideas-amannirala13" title="Ideas, Planning, & Feedback">🤔</a> <a href="#design-amannirala13" title="Design">🎨</a></td>
   </tr>
 </table>
 
