@@ -1,7 +1,9 @@
 from PyQt5 import uic
-from PyQt5.QtCore import *
-from PyQt5.QtGui import *
-from PyQt5.QtWidgets import *
+import PyQt5.sip
+from PyQt5.QtGui import QKeySequence
+from PyQt5.QtWidgets import QApplication, QMainWindow, QTextEdit, QPushButton, QLineEdit, QTextBrowser, QProgressBar, \
+    QAction, QShortcut, QDialog, QMessageBox, QFileDialog
+
 from weasyprint import HTML, CSS
 from weasyprint.fonts import FontConfiguration
 from datetime import datetime
