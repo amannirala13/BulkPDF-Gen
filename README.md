@@ -83,9 +83,9 @@ To prepare the environment you need to follow these steps:
 
 ## How to use? 💡
 
-When the application is launched it has a single window with with few but important options. The application uses special syntax to generate customized content. Lets have a brief walk through it:
+When the application is launched it has a single window with a few but important options. The application uses special syntax to generate customized content. Lets have a brief walk through it:
 
-The application uses HTML and CSS to render document designs. We have provided with some pre-build templates but feel free to load your custom design.
+The application uses HTML and CSS to render document designs. We have provided some pre-build templates but feel free to load your custom design.
 
 ### Template variable syntax 🔥
 
@@ -174,16 +174,6 @@ To make the document generation versatile and make customization possible we add
 <td>Quantum Information</td>
 <td>95</td>
 </tr>
-<tr>
-<td>2</td>
-<td>90</td>
-<td>80</td>
-</tr>
-<tr>
-<td>3</td>
-<td>150</td>
-<td>20</td>
-</tr>
 <table>
 
 **PDF output**
@@ -192,14 +182,15 @@ To make the document generation versatile and make customization possible we add
 
 ### Steps to use 🧐
 
-1. Select your `HTML` template file in the document _(this file is important)_.
+1. Select your `HTML` template file in the application _(this file is important)_.
 2. Select `style(css)` file for additional design customization _(optional)_.
 3. Then choose your data file`(.csv)`.
    > Note: The data file needs to be a `.csv` i.e. `comma(,)` separated file. The first row is considered as **`"label"`** information and not data instance. This is important as this `"label"` will be used in the template file as **`variables`**.
-4. Next you need to define a output file name format. This is optional, you can leave is empty and it will auto-generate file name based on the data.
+4. Next you need to define an output file name format. This is optional, you can leave is empty and it will auto-generate file name based on the data.
    > Note: You have to follow variable syntax format for defining file name. Here is an example: `%label-1%_MIT_%label-2%.pdf`.
 5. Now you need to select the output directory in which all the documents will be saved.
 6. Finally it's time to do a final check and tweaks before staring the document generation process._(Don't forget to save the changes made to the template or style files in the application before starting to process.)_
+7. Once everything is done, press the `Generate` button and wait for the program to finish the process.
 
 ## License
 
