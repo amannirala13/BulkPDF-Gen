@@ -71,6 +71,126 @@ To prepare the environment you need to follow these steps:
 
 > Note: To run this software successfully you need to make sure you have **GTK3** installed
 
+## How to use? 💡
+
+When the application is launched it has a single with with few but important options. The application uses special syntax to generate customized content. Lets have a brief walk through it:
+
+The application uses HTML and CSS to render document designs. We have provided with some pre-build templates but feel free to load your custom design.
+
+### Template variable syntax
+
+To make the document generation versatile and make customization possible we added a variable syntax in system for the templates which will be used to render real value from the data file.
+
+- A variable is surrounded by **`%`**.
+  > Example: `%label%`
+- A label is the column name of the data file. It is the **first row** of the **`.csv`** file.
+
+<table>
+<tr>
+<th>Number</th>
+<th>Alpha</th>
+<th>Beta</th>
+<th>Gamma</th>
+<td style="color:red">👈 These are the labels</td>
+</tr>
+<tr>
+<td>1</td>
+<td>100</td>
+<td>40</td>
+<td>0.5</td>
+</tr>
+<tr>
+<td>2</td>
+<td>90</td>
+<td>80</td>
+<td>0.7</td>
+</tr>
+<tr>
+<td>3</td>
+<td>150</td>
+<td>20</td>
+<td>0.1</td>
+</tr>
+<table>
+
+> Note: Labels are case sensitive
+
+Here is an example:
+
+**template.html**
+
+```html
+<style>
+  @page {
+    size: 890px 690px;
+    margin: auto;
+  }
+</style>
+<div
+  style="width:800px; height:600px; padding:20px; text-align:center; border: 10px solid #787878"
+>
+  <div
+    style="width:750px; height:550px; padding:20px; text-align:center; border: 5px solid #787878"
+  >
+    <span style="font-size:50px; font-weight:bold"
+      >Certificate of Completion</span
+    >
+    <br /><br />
+    <span style="font-size:25px"><i>This is to certify that</i></span>
+    <br /><br />
+    <span style="font-size:30px"><b>%Name%</b></span
+    ><br /><br />
+    <span style="font-size:25px"><i>has completed the course</i></span>
+    <br /><br />
+    <span style="font-size:30px">%Course%</span> <br /><br />
+    <span style="font-size:20px">with score of <b>%Score%</b></span>
+    <br /><br /><br /><br />
+  </div>
+</div>
+```
+
+<table>
+<tr>
+<b>data.csv</b>
+</tr>
+<tr>
+<th>Name</th>
+<th>Course</th>
+<th>Score</th>
+<td style="color:red">👈 These are the labels</td>
+</tr>
+<tr>
+<td>Aman Nirala</td>
+<td>Quantum Information</td>
+<td>95</td>
+</tr>
+<tr>
+<td>2</td>
+<td>90</td>
+<td>80</td>
+</tr>
+<tr>
+<td>3</td>
+<td>150</td>
+<td>20</td>
+</tr>
+<table>
+
+**PDF output**
+
+![](ss4.jpg)
+
+### Steps to use
+
+1. Select your `HTML` template file in the document _(this file is important)_.
+2. Select `style(css)` file for additional design customization _(optional)_.
+3. Then choose your data file`(.csv)`.
+   > Note: The data file needs to be a `.csv` i.e. `comma(,)` separated file. The first row is considered as **`"label"`** information and not data instance. This is important as this `"label"` will be used in the template file as **`variables`**.
+4. Next you need to define a output file name format. This is optional, you can leave is empty and it will auto-generate file name based on the data.
+   > Note: You have to follow variable syntax format for defining file name. Here is an example: `%label-1%_MIT_%label-2%.pdf`.
+5. Now you need to select the output directory in which all the documents will be saved.
+6. Finally it's time to do a final check and tweaks before staring the document generation process._(Don't forget to save the changes made to the template or style files in the application before starting to process.)_
+
 ## License
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Famannirala13%2FBulkPDF-Gen.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Famannirala13%2FBulkPDF-Gen?ref=badge_large)
