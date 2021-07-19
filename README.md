@@ -24,7 +24,17 @@ A bulk html pdf generator. This application can generate PDFs in bulk by using j
 </table>
 </p>
 
-## Getting started🚀
+## Requirements 🧱
+
+Your system must have the following tools installed and setup with system path variables updated before you can use this software.
+
+- **Python3**
+- **pip package manager**
+- **GTK3 Runtime** _(for Windows, MacOS and few linux based systems)_.
+  You can get GTK form here 👉 [For Windows](https://www.gtk.org/docs/installations/windows/), [For MacOS](https://www.gtk.org/docs/installations/macos/), [For Linux](https://www.gtk.org/docs/installations/linux/)
+  > Note: Your system might already have gtk3 installed. You need not install gtk dev dependencies.
+
+## Getting started 🚀
 
 To run the application from the source code you need to meet few basic requirements. Once that is done we are ready to do the setup.
 
@@ -69,7 +79,7 @@ To prepare the environment you need to follow these steps:
   $ python app.py
   ```
 
-> Note: To run this software successfully you need to make sure you have **GTK3** installed
+> Note: To run this software successfully you need to make sure you have **GTK3** installed.
 
 ## How to use? 💡
 
@@ -77,7 +87,7 @@ When the application is launched it has a single with with few but important opt
 
 The application uses HTML and CSS to render document designs. We have provided with some pre-build templates but feel free to load your custom design.
 
-### Template variable syntax
+### Template variable syntax 🔥
 
 To make the document generation versatile and make customization possible we added a variable syntax in system for the templates which will be used to render real value from the data file.
 
@@ -113,9 +123,9 @@ To make the document generation versatile and make customization possible we add
 </tr>
 <table>
 
-> Note: Labels are case sensitive
+> Note: Labels are case sensitive.
 
-Here is an example:
+#### Here is an example
 
 **template.html**
 
@@ -180,7 +190,7 @@ Here is an example:
 
 ![](ss4.jpg)
 
-### Steps to use
+### Steps to use 🧐
 
 1. Select your `HTML` template file in the document _(this file is important)_.
 2. Select `style(css)` file for additional design customization _(optional)_.
