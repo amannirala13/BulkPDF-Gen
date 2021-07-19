@@ -57,8 +57,8 @@ To prepare the environment you need to follow these steps:
 
   - For Windows based system:
 
-    ```sh
-    $ env/Scripts/activate.bat
+    ```bat
+    $ env\Scripts\activate.bat
     ```
 
     > Note: Your `pwd` must be the `src` directory or else you need to provide full path of the `activate` script.
