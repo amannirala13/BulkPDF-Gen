@@ -24,6 +24,53 @@ A bulk html pdf generator. This application can generate PDFs in bulk by using j
 </table>
 </p>
 
+## Getting started🚀
+
+To run the application from the source code you need to meet few basic requirements. Once that is done we are ready to do the setup.
+
+To prepare the environment you need to follow these steps:
+
+- Execute the `prep.sh` script which will make virtual environment. Here is an example for debian based system:
+
+  ```sh
+  $ chmod +x prep.sh
+  $ ./prep.sh
+  ```
+
+- Now we can activate the environment. Here is an example:
+
+  - For Unix or MacOS based system:
+
+    ```sh
+    $ source env/bin/activate
+    ```
+
+  - For Windows based system:
+
+    ```sh
+    $ env/Scripts/activate.bat
+    ```
+
+    > Note: Your `pwd` must be the `src` directory or else you need to provide full path of the `activate` script.
+
+  - To deactivate use the following command:
+    ```sh
+    $ deactivate
+    ```
+
+- Now we are ready to install the required packages. Run the following command to install all the required packages:
+
+  ```sh
+  $ pip install -r requirements.txt
+  ```
+
+- Once we are done with installing packages. We are ready to execute the application using python. Here is an example:
+  ```sh
+  $ python app.py
+  ```
+
+> Note: To run this software successfully you need to make sure you have **GTK3** installed
+
 ## License
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Famannirala13%2FBulkPDF-Gen.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Famannirala13%2FBulkPDF-Gen?ref=badge_large)
@@ -53,6 +100,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+---
 
 <p align="center">
 <a href="https://github.com/amannirala13?tab=followers"><img alt = "github_follow_badge" src="https://img.shields.io/github/followers/amannirala13?label=Follow&style=social"/></a>
