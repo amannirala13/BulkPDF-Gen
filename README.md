@@ -83,7 +83,7 @@ To prepare the environment you need to follow these steps:
 
 ## How to use? 💡
 
-When the application is launched it has a single with with few but important options. The application uses special syntax to generate customized content. Lets have a brief walk through it:
+When the application is launched it has a single window with with few but important options. The application uses special syntax to generate customized content. Lets have a brief walk through it:
 
 The application uses HTML and CSS to render document designs. We have provided with some pre-build templates but feel free to load your custom design.
 
