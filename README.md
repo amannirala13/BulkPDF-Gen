@@ -188,7 +188,7 @@ To make the document generation versatile and make customization possible we add
 
 **PDF output**
 
-![](ss4.jpg)
+![](ss4.JPG)
 
 ### Steps to use 🧐
 
